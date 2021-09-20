@@ -1,0 +1,33 @@
+
+
+.video-div{
+    position: relative;
+}
+
+
+.video-bg-main{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    top: 0%;
+}
+
+.position-div-text{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    border: 1px solid white;
+    border-top-right-radius: 10px;
+    width: 50%;
+}
+
+.header-main{
+    color: grey;
+    z-index: 2;
+    font-size: calc(20px + (62 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.bio{
+    color: grey;
+}

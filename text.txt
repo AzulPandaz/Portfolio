@@ -1,0 +1,42 @@
+Insperations:
+Riot games:
+Their fonts and picture setup for their creator card
+News landing page is really really nice
+
+The folded corner on their boxes with info
+http://nicolasgallagher.com/pure-css-folded-corner-effect/
+
+pcitures can be offset and fold into other section for look
+
+
+I do want a landing page of sorts
+http://wholedesignstudios.com/
+good example
+
+super simple landing page
+look at the very simple.png
+
+bootstrap collapse
+should use that at somepoint
+https://getbootstrap.com/docs/4.6/components/collapse/
+
+
+nice format potential
+https://oce.leagueoflegends.com/en/featured/league-displays
+
+open format 
+https://www.velvetspectrum.com/mold
+
+https://www.marleighculver.com/
+
+
+color schemes:
+https://coolors.co/u/rogelio_valencia
+
+draw the website design after the specs 
+
+typing gif
+https://www.pexels.com/video/close-up-video-of-man-typing-on-a-white-keyboard-854058/
+
+typing gif better
+https://www.pexels.com/video/person-using-keyboard-while-typing-7534239/
