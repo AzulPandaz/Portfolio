@@ -1,11 +1,24 @@
+/* header */
+.header-bar{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(33,47,69,1) 18%);
+}
 
+.header-nav{
+    margin-bottom: 10px;
+}
 
+p {
+    color: red;
+}
+/* end of header */
 .video-div{
     position: relative;
     height: calc(160px + (855 - 160) * ((100vw - 300px) / (1600 - 300)));;
+    margin-bottom: 15px;
 }
 
-
+/* Main */
 .video-bg-main{
     width: 100%;
     height: auto;
@@ -37,3 +50,33 @@
     color: black;
     z-index: 2;
 }
+
+.section-main-two{
+    background-color: grey;
+}
+
+.riot-card{
+    position: relative;
+    width: 175px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+}
+
+.top-right-slant{
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border-top: 30px solid grey;
+    border-left:30px solid transparent;
+}
+
+.info{
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    width: 170px;
+}
+/* end of main */
