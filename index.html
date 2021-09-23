@@ -40,6 +40,7 @@
     <main class="main" id="main">
         <section class="section-main-one">
             <div class="video-div">
+                <!-- video from https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome -->
                 <video playsinline autoplay muted loop class="video-bg-main">
                     <source src="Media/pexels-mikhail-nilov-7534239.mp4" type="video/mp4">
                 </video>
@@ -62,25 +63,50 @@
             <!-- inspired off of Riot Games news page -->
             <div class="container">
                 <div class="row justify-content-center">
+                    <!-- sourced from http://jsfiddle.net/dDejan/XSs9L/
+                    inspried from Riot Games-->
                     <div class="riot-card">
                         <div class="top-right-slant"></div>
+                        <img src="media/Select_icon_nav.png" alt="" class="riot-select-icon img img-fluid">
+                        <!-- select icon needs z-index 2 -->
+                        <img src="https://via.placeholder.com/50" alt="" class="riot-card-img riot-card-headshot">
+                        <!-- z-index 1 for headshot -->
                         <div class="info text-center">
                             <p class="header-riot">Rogelio</p>
                             <p class="title">Junior Developer</p>
                         </div>
+                        <p class="short-bio text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-main-three">
             <div class="container">
-                <div class="row">
-                    <div class="left-section col">
+                <div class="row justify-content-center text-center">
+                    <section class="project-section">
                         <!-- projects section -->
-                    </div>
-                    <div class="right-section col">
-                        <!-- info and certification section -->
-                    </div>
+                        <!-- .col.project*4>img.project-img>p.btn.btn-dark>lorem1 -->
+                        <div class="col-12 project">
+                            <img src="https://via.placeholder.com/250" alt="project" class="project-img col-12">
+                            <a href="" class="project-link"><button class="btn btn-dark col-4">Project Link</button></a>
+                        </div>
+                        <div class="col-12 project">
+                            <img src="https://via.placeholder.com/250" alt="project" class="project-img col-12">
+                            <a href="" class="project-link"><button class="btn btn-dark col-4">Project Link</button></a>
+                        </div>
+                        <div class="col-12 project">
+                            <img src="https://via.placeholder.com/250" alt="project" class="project-img col-12">
+                            <a href="" class="project-link"><button class="btn btn-dark col-4">Project Link</button></a>
+                        </div>
+                        <div class="col-12 project">
+                            <img src="https://via.placeholder.com/250" alt="project" class="project-img col-12">
+                            <a href="" class="project-link"><button class="btn btn-dark col-4">Project Link</button></a>
+                        </div>
+                    </section>
+                    <!-- rethink this part maybe just do 4 projects all the way across -->
+                    <!-- <div class="right-section col"> -->
+                    <!-- info and certification section -->
+                    <!-- </div> -->
                 </div>
             </div>
         </section>
@@ -88,6 +114,43 @@
     <footer class="footer" id="footer">
         <section class="section-footer-one">
             <!-- Icons for socials -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 socials">
+                        <div class="row">
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/50" alt="footer-icon"
+                                    class="footer-icon img img-fluid">
+                                </div>
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/50" alt="footer-icon"
+                                    class="footer-icon img img-fluid">
+                                </div>
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/50" alt="footer-icon"
+                                    class="footer-icon img img-fluid">
+                                </div>
+                            <div class="icon">
+                                <img src="https://via.placeholder.com/50" alt="footer-icon"
+                                    class="footer-icon img img-fluid">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 contacts">
+                        <div class="email">
+
+                        </div>
+                        <div class="number">
+
+                        </div>
+                    </div>
+                        <ul class="nav footer-nav">
+                            <li class="footer-nav-link nav-link"></li><a href="" class="footer-link">Home</a></li>
+                            <li class="footer-nav-link nav-link"></li><a href="" class="footer-link">About Me</a></li>
+                            <li class="footer-nav-link nav-link"></li><a href="" class="footer-link">Contact</a></li>
+                        </ul>
+                </div>
+            </div>
         </section>
     </footer>
 
