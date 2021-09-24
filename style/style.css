@@ -1,15 +1,24 @@
 /* header */
+
+.header .headshot{
+    margin: 20px 0px;
+}
+
 .header-bar{
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(33,47,69,1) 18%);
 }
 
 .header-nav{
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    
 }
 
 p {
     color: white;
+}
+.footer p{
+    color: black;
 }
 /* end of header */
 .video-div{
@@ -53,7 +62,7 @@ p {
 
 .section-main-two{
     background-color: rgba(33,47,69,1);
-    margin-top: calc(8px + (45 - 8) * ((100vw - 300px) / (1600 - 300)));;;
+    margin-top: calc(0px + (32 - 0) * ((100vw - 300px) / (1600 - 300)));;;
 }
 
 .riot-card{
@@ -62,6 +71,7 @@ p {
     height: 300px;
     background-color: #343a40;
     margin: 10px;
+    z-index: 1;
 }
 
 .top-right-slant{
@@ -75,16 +85,21 @@ p {
 }
 
 .riot-select-icon{
-    width: 55%;
     position: absolute;
     left: 25%;
     top: 10%;
+    z-index: 3;
+    fill: black;
+    height: auto;
+    width: 100%;
 }
 
 .riot-card-img{
     position: absolute;
-    left: 40%;
-    top: 21%;
+    left: 35.5%;
+    top: 18%;
+    z-index: 2;
+    width: 30%;
 }
 
 .info{
@@ -99,4 +114,24 @@ p {
     bottom: 0%;
     left: 10%;
 }
+
+.section-main-three{
+    background-color: #1b3a4b;
+}
+
+.project{
+    margin: 15px 0px;
+}
+
+.project-button{
+    margin: 10px 0px;
+}
 /* end of main */
+
+.section-footer-one{
+    background-color: #212f45;
+}
+
+.section-footer-two{
+    background-color: #144552;
+}
