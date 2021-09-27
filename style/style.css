@@ -5,17 +5,32 @@
 }
 
 .header-bar{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(33,47,69,1) 18%);
+    background: #213029;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, #213029 18%);
 }
 
 .header-nav{
     margin-bottom: 25px;
-    
+}
+.header .nav-link {
+    background: none;
+    border: none;
+}
+.header .nav-link{
+    color: white;
+    background: #213029;
+    font-family: 'Source Code Pro', monospace;;
+}
+
+.header a:hover{
+    transition: ease 0.5s;
+    background: beige;
+    color: black;
+    font-weight: bolder;
 }
 
 p {
-    color: white;
+    color: black;
 }
 .footer p{
     color: black;
@@ -61,7 +76,7 @@ p {
 }
 
 .section-main-two{
-    background-color: rgba(33,47,69,1);
+    background-color: #3B5447;
     margin-top: calc(0px + (32 - 0) * ((100vw - 300px) / (1600 - 300)));;;
 }
 
@@ -69,7 +84,7 @@ p {
     position: relative;
     width: 200px;
     height: 300px;
-    background-color: #343a40;
+    background-color: #D6D6D6;
     margin: 10px;
     z-index: 1;
 }
@@ -80,17 +95,18 @@ p {
     position: absolute;
     top: -1px;
     right: -1px;
-    border-top: 30px solid rgba(33,47,69,1);
+    border-top: 30px solid #3B5447;
     border-left:30px solid transparent;
 }
-
+svg{
+    width: 100%;
+}
 .riot-select-icon{
     position: absolute;
     left: 25%;
     top: 10%;
     z-index: 3;
-    fill: black;
-    height: auto;
+    fill: #CD7F32;
     width: 100%;
 }
 
@@ -105,7 +121,7 @@ p {
 .info{
     position: absolute;
     left: 10%;
-    top: 50%;
+    top: 45%;
     width: 170px;
 }
 
@@ -116,7 +132,7 @@ p {
 }
 
 .section-main-three{
-    background-color: #1b3a4b;
+    background-color: #C2C2C2;
 }
 
 .project{
@@ -126,12 +142,54 @@ p {
 .project-button{
     margin: 10px 0px;
 }
+
+.project-button{
+    color: black;
+    font-weight: bolder;
+    background: #C2C2C2;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.main button:hover{
+    transition: ease 0.5s;
+    background: #213029;
+    color: white;
+    font-weight: bolder;
+}
 /* end of main */
 
+.footer a{
+    color: white;
+}
+
 .section-footer-one{
-    background-color: #212f45;
+    background-color: #293D34;
 }
 
 .section-footer-two{
-    background-color: #144552;
+    background-color: #213029;
 }
+
+/* Icon Stuff */
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.icon{
+    font-size: 28px;
+    margin: 10px 0px;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */

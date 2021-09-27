@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -25,102 +25,53 @@
         <section class="header-bar">
             <!--Just a idea make the header-bar fixed so it can always be used  -->
             <div class="container container-fluid">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center text-center">
                     <div class="col-3">
                         <img src="https://via.placeholder.com/50" alt="headshot" class="headshot header-img">
                     </div>
                     <div class="col-12">
                         <ul class="nav header-nav justify-content-between">
-                            <li class="header-nav-item"><a href="#link" class="nav-link btn">Home</a></li>
-                            <li class="header-nav-item"><a href="#link" class="nav-link btn">About Me</a></li>
-                            <li class="header-nav-item"><a href="#link" class="nav-link btn">Contact</a></li>
+                            <li class="header-nav-item"><a href="#link" class="nav-link btn btn-dark">Home</a></li>
+                            <li class="header-nav-item"><a href="#link" class="nav-link btn btn-dark">About Me</a></li>
+                            <li class="header-nav-item"><a href="#link" class="nav-link btn btn-dark">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
     </header>
+
     <main class="main" id="main">
-        <section class="section-main-one">
-            <div class="video-div">
-                <!-- video from https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome -->
-                <video playsinline autoplay muted loop class="video-bg-main">
-                    <source src="Media/pexels-mikhail-nilov-7534239.mp4" type="video/mp4">
-                </video>
-                <div class="position-div-text">
-                    <div class="container container-fluid">
-                        <div class="row">
-                            <h2 class="greeting header header-main col-12">
-                                Hello I'm Rogelio
-                            </h2>
-                            <p class="bio col-12 d-none d-md-block">
-                                I am a Coder.
-                            </p>
-                        </div>
-                    </div>
+        <div class="section-main-three">
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <p class="main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ullam incidunt
+                        modi nobis dignissimos dolor magni, eaque iure magnam porro, quos delectus, quibusdam placeat.
+                        Cum dolorum cupiditate consectetur vel nostrum rem minima, ipsa quisquam. Maiores sed quasi
+                        recusandae. Distinctio saepe, nisi cum dolore exercitationem pariatur deleniti? Amet quos id
+                        sit.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center d-sm-flex flex-sm-row">
+                    <img src="https://via.placeholder.com/250" alt="Portrait" class="main-img">
                 </div>
             </div>
-            <!-- position to put a image and text on the left and right -->
-        </section>
-        <section class="section section-main-two">
-            <!-- inspired off of Riot Games news page -->
-            <div class="container container-fluid">
-                <div class="row justify-content-center">
-                    <!-- sourced from http://jsfiddle.net/dDejan/XSs9L/
-                    inspried from Riot Games-->
-                    <div class="riot-card">
-                        <div class="top-right-slant"></div>
-                        <img src="https://via.placeholder.com/50" alt=""
-                            class="riot-card-img riot-card-headshot img img-fluid">
-                        <!-- select icon needs z-index 2 -->
-                        <!-- <img src="media/Select_icon_nav.png" alt="" class="riot-select-icon img img-fluid"> -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="riot-select-icon">
-                            <path
-                                d="M59.84 7.78L50 17.63l-4.43-4.43-5.41-5.42a46.63 46.63 0 1019.68 0zm-12 12L50 22l2.2-2.19 4.67-4.67a38.86 38.86 0 11-13.74 0zM50 96.89a43.52 43.52 0 01-10.82-85.68l2.59 2.59a40.42 40.42 0 1016.46 0l2.59-2.59A43.52 43.52 0 0150 96.89z">
-                            </path>
-                            <path d="M55.44 5.44L50 10.88l-5.44-5.44L50 0z"></path>
-                        </svg>
-                        <!-- z-index 1 for headshot -->
-                        <div class="info text-center">
-                            <p class="header-riot">Rogelio</p>
-                            <p class="title">Junior Developer</p>
-                        </div>
-                        <p class="short-bio text-center">Greatest acomplishment. Third in state, in League of Legends highschool esports.</p>
-                    </div>
+            <div class="row">
+                <div class="col-12 col-lg-4 text-center d-sm-flex flex-sm-row-reverse">
+                    <img src="https://via.placeholder.com/250" alt="Portrait" class="main-img">
+                </div>
+                <div class="col-12 col-lg-8">
+                    <p class="main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ullam incidunt
+                        modi nobis dignissimos dolor magni, eaque iure magnam porro, quos delectus, quibusdam placeat.
+                        Cum dolorum cupiditate consectetur vel nostrum rem minima, ipsa quisquam. Maiores sed quasi
+                        recusandae. Distinctio saepe, nisi cum dolore exercitationem pariatur deleniti? Amet quos id
+                        sit.</p>
                 </div>
             </div>
-        </section>
-        <section class="section-main-three">
-            <div class="container container-fluid">
-                <div class="row justify-content-center text-center">
-                    <section class="project-section">
-                        <!-- projects section -->
-                        <!-- .col.project*4>img.project-img>p.btn.btn-dark>lorem1 -->
-                        <div class="col-12 project">
-                            <img src="https://via.placeholder.com/250" alt="project" class="project-img col-12">
-                            <a href="#link" class="project-link"><button class="btn col-5 project-button">Project Link</button></a>
-                        </div>
-                        <div class="col-12 project">
-                            <img src="https://via.placeholder.com/250" alt="project" class="project-img col-12">
-                            <a href="#link" class="project-link"><button class="btn col-5 project-button">Project Link</button></a>
-                        </div>
-                        <div class="col-12 project">
-                            <img src="https://via.placeholder.com/250" alt="project" class="project-img col-12">
-                            <a href="#link" class="project-link"><button class="btn col-5 project-button">Project Link</button></a>
-                        </div>
-                        <div class="col-12 project">
-                            <img src="https://via.placeholder.com/250" alt="project" class="project-img col-12">
-                            <a href="#link" class="project-link"><button class="btn col-5 project-button">Project Link</button></a>
-                        </div>
-                    </section>
-                    <!-- rethink this part maybe just do 4 projects all the way across -->
-                    <!-- <div class="right-section col"> -->
-                    <!-- info and certification section -->
-                    <!-- </div> -->
-                </div>
-            </div>
-        </section>
+        </div>
+    </div>
     </main>
+
     <footer class="footer" id="footer">
         <section class="section-footer-one">
             <!-- Icons for socials -->
@@ -145,10 +96,10 @@
                                 Contacts
                             </h3>
                             <div class="col-12 email">
-                                <a href="#link"><p class="email">Buisness Email</p></a>
+                                <p class="email">Lorem, ipsum.</p>
                             </div>
                             <div class="col-12 number">
-                                <a href="#link"><p class="email">Buisness Number</p></a>
+                                <p class="number">Lorem, ipsum.</p>
                             </div>
                         </div>
                     </div>
@@ -166,9 +117,7 @@
             </div>
         </section>
     </footer>
-
-
-    <!-- icon stuff -->
+<!-- icon Stuff -->
     <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
         <symbol id="icon-twitter" viewBox="0 0 32 32">
@@ -184,6 +133,6 @@
         </symbol>
         </defs>
         </svg>
-        
 </body>
+
 </html>
