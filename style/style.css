@@ -1,3 +1,7 @@
+body{
+    scroll-behavior: smooth;
+}
+
 /* header */
 
 .header .headshot{
@@ -6,7 +10,7 @@
 
 .header-bar{
     background: #213029;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, #213029 18%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, #213029 10%);
 }
 
 .header-nav{
@@ -17,9 +21,11 @@
     border: none;
 }
 .header .nav-link{
+    margin-top: 25px;
     color: white;
     background: #213029;
-    font-family: 'Source Code Pro', monospace;;
+    font-family: 'Teko', sans-serif;
+    font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));;
 }
 
 .header a:hover{
@@ -29,12 +35,10 @@
     font-weight: bolder;
 }
 
-p {
+.main p {
     color: black;
 }
-.footer p{
-    color: black;
-}
+
 /* end of header */
 .video-div{
     position: relative;
@@ -66,13 +70,18 @@ p {
 
 .header-main{
     color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
     z-index: 2;
-    font-size: calc(20px + (62 - 20) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(13px + (56 - 13) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .bio{
     color: black;
     z-index: 2;
+    font-family: 'Coda', cursive;
+    font-size: calc(8px + (20 - 8) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 600;
 }
 
 .section-main-two{
@@ -82,12 +91,18 @@ p {
 
 .riot-card{
     position: relative;
-    width: 200px;
-    height: 300px;
-    background-color: #D6D6D6;
+     width: calc(200px + (350 - 200) * ((100vw - 300px) / (1600 - 300)));;
+    height: calc(300px + (500 - 300) * ((100vw - 300px) / (1600 - 300)));;;
+    background-color: #EBEBEB;
     margin: 10px;
     z-index: 1;
+    border-left: 3px solid #CD7F32;
+    border-bottom: 3px solid #CD7F32;
+    box-shadow:0px 8px 2px -2px black;
+    
 }
+
+/* sourced https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow */
 
 .top-right-slant{
     width: 0%;
@@ -95,44 +110,68 @@ p {
     position: absolute;
     top: -1px;
     right: -1px;
-    border-top: 30px solid #3B5447;
-    border-left:30px solid transparent;
+    border-top: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300))) solid #3B5447;
+    border-left:calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300))) solid transparent;
 }
-svg{
-    width: 100%;
-}
-.riot-select-icon{
+
+.svg-div{
+    width: calc(95px + (150 - 95) * ((100vw - 300px) / (1600 - 300)));;
+    /* calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));; */
     position: absolute;
-    left: 25%;
+    left: 28%;
     top: 10%;
     z-index: 3;
+}
+
+svg {
     fill: #CD7F32;
-    width: 100%;
 }
 
 .riot-card-img{
+    border-radius: 50%;
+    width: 78%;
     position: absolute;
-    left: 35.5%;
-    top: 18%;
-    z-index: 2;
-    width: 30%;
+    top: 15%;
+    left: 11%;
+    z-index: -1;
 }
 
 .info{
-    position: absolute;
-    left: 10%;
-    top: 45%;
-    width: 170px;
+    /* position: absolute; */
+    left: 5%;
+    top: 50%;
+    /* width: 170px; */
+    margin-top: 65%;
+    font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));;;
 }
 
+.header-riot, .title{
+    margin: 0px;
+}
+
+.header-riot{
+    font-family: 'Coda', cursive;
+    font-weight: 500;
+}
+
+.title{
+    font-family: 'Coda', cursive;
+    font-weight: 400;
+    font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));;
+}
 .short-bio{
-    position: absolute;
-    bottom: 0%;
-    left: 10%;
+    /* position: absolute; */
+    bottom: 5%;
+    left: 0%;
+    font-family: 'Merriweather', serif;
+    font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));;;
+    margin-top: 20px;
+    padding: 0px 50px;
+    font-weight: 600;
 }
 
 .section-main-three{
-    background-color: #C2C2C2;
+    background-color: #EBEBEB;
 }
 
 .project{
@@ -146,7 +185,7 @@ svg{
 .project-button{
     color: black;
     font-weight: bolder;
-    background: #C2C2C2;
+    background: #EBEBEB;
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -159,11 +198,31 @@ svg{
 /* end of main */
 
 .footer a{
-    color: white;
+    color: lightgray;
+    font-family: 'Teko', sans-serif;
+    font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1600 - 300)));;;
 }
 
 .section-footer-one{
     background-color: #293D34;
+}
+
+.contacts{
+    color: white;
+}
+
+.footer-header{
+    font-family: 'Coda', cursive;
+    color: whitesmoke;
+}
+
+/* .footer-link {
+    color: white;
+} */
+
+.certifications-list{
+    list-style-type: none;
+    padding: 0px;
 }
 
 .section-footer-two{
