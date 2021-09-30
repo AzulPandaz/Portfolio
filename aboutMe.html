@@ -16,7 +16,7 @@
         crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Coda&family=Merriweather&family=Source+Sans+Pro&family=Teko&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -25,15 +25,15 @@
         <section class="header-bar">
             <!--Just a idea make the header-bar fixed so it can always be used  -->
             <div class="container container-fluid">
-                <div class="row justify-content-center text-center">
-                    <div class="col-3">
+                <div class="row justify-content-center justify-content-lg-between">
+                    <div class="col-2 col-lg-2 d-flex text-center">
                         <img src="https://via.placeholder.com/50" alt="headshot" class="headshot header-img">
                     </div>
-                    <div class="col-12">
-                        <ul class="nav header-nav justify-content-between">
-                            <li class="header-nav-item"><a href="#link" class="nav-link btn btn-dark">Home</a></li>
-                            <li class="header-nav-item"><a href="#link" class="nav-link btn btn-dark">About Me</a></li>
-                            <li class="header-nav-item"><a href="#link" class="nav-link btn btn-dark">Contact</a></li>
+                    <div class="col-12 col-lg-8">
+                        <ul class="nav header-nav justify-content-between ">
+                            <li class="header-nav-item"><a href="#link" class="nav-link btn">Home</a></li>
+                            <li class="header-nav-item"><a href="#link" class="nav-link btn">About Me</a></li>
+                            <li class="header-nav-item"><a href="#link" class="nav-link btn">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -46,22 +46,22 @@
         <div class="container container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-8">
-                    <p class="main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ullam incidunt
+                    <p class="main-text about-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ullam incidunt
                         modi nobis dignissimos dolor magni, eaque iure magnam porro, quos delectus, quibusdam placeat.
                         Cum dolorum cupiditate consectetur vel nostrum rem minima, ipsa quisquam. Maiores sed quasi
                         recusandae. Distinctio saepe, nisi cum dolore exercitationem pariatur deleniti? Amet quos id
                         sit.</p>
                 </div>
-                <div class="col-12 col-lg-4 text-center d-sm-flex flex-sm-row">
-                    <img src="https://via.placeholder.com/250" alt="Portrait" class="main-img">
+                <div class="col-12 col-lg-4 d-flex justify-content-end">
+                    <img src="https://via.placeholder.com/250" alt="Portrait" class="main-img about-img">
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-lg-4 text-center d-sm-flex flex-sm-row-reverse">
-                    <img src="https://via.placeholder.com/250" alt="Portrait" class="main-img">
+                <div class="col-12 col-lg-4">
+                    <img src="https://via.placeholder.com/250" alt="Portrait" class="main-img about-img">
                 </div>
                 <div class="col-12 col-lg-8">
-                    <p class="main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ullam incidunt
+                    <p class="main-text about-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ullam incidunt
                         modi nobis dignissimos dolor magni, eaque iure magnam porro, quos delectus, quibusdam placeat.
                         Cum dolorum cupiditate consectetur vel nostrum rem minima, ipsa quisquam. Maiores sed quasi
                         recusandae. Distinctio saepe, nisi cum dolore exercitationem pariatur deleniti? Amet quos id
@@ -77,42 +77,64 @@
             <!-- Icons for socials -->
             <div class="container container-fluid">
                 <div class="row">
-                    <div class="col-12 socials">
-                        <div class="row justify-content-around">
-                            <div class="icon-footer">
-                                <a href="" class="icon-link"><svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></a>
-                            </div>
-                            <div class="icon-footer">
-                                <a href="" class="icon-link"><svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
-                            </div>
-                            <div class="icon-footer">
-                                <a href="" class="icon-link"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 contacts">
-                        <div class="row text-center">
+                    <div class="col-6 contacts">
+                        <div class="row ">
                             <h3 class="footer-header col-12">
-                                Contacts
+                                Contact Information
                             </h3>
                             <div class="col-12 email">
-                                <p class="email">Lorem, ipsum.</p>
+                                <a href="#link" class="footer-link">
+                                    <p class="email">Buisness Email</p>
+                                </a>
                             </div>
                             <div class="col-12 number">
-                                <p class="number">Lorem, ipsum.</p>
+                                <a href="#link" class="footer-link">
+                                    <p class="email number">Buisness Number</p>
+                                </a>
                             </div>
                         </div>
                     </div>
+                    <div class="certification col-12">
+                        <h3 class="footer-header">
+                            Certifications
+                        </h3>
+                        <ul class="certifications-list">
+                            <li class="certifications-list-item"><a href="#link" class="footer-link">
+                                <p class="certification-name">Html Certification</p>
+                            </a></li>
+                        </ul>
+
+                    </div>
+                    
         </section>
         </div>
         <section class="section-footer-two">
             <div class="container container-fluid">
-                <div class="row">
-                    <ul class="nav footer-nav">
-                        <li class="footer-nav-link nav-link"></li><a href="" class="footer-link">Home</a></li>
-                        <li class="footer-nav-link nav-link"></li><a href="" class="footer-link">About Me</a></li>
-                        <li class="footer-nav-link nav-link"></li><a href="" class="footer-link">Contact</a></li>
+                <div class="row justify-content-lg-between">
+                    <ul class="nav justify-content-between footer-nav col-12 col-lg-3">
+                        <li class="footer-nav-link"></li><a href="" class="footer-link">Home</a></li>
+                        <li class="footer-nav-link"></li><a href="" class="footer-link">About Me</a></li>
+                        <li class="footer-nav-link"></li><a href="" class="footer-link">Contact</a></li>
                     </ul>
+                    <div class="col-12 col-lg-3 socials">
+                        <div class="row flex-row-reverse justify-content-between">
+                            <div class="icon-footer">
+                                <a href="" class="icon-link"><svg class="icon icon-linkedin2">
+                                        <use xlink:href="#icon-linkedin2"></use>
+                                    </svg></a>
+                            </div>
+                            <div class="icon-footer">
+                                <a href="" class="icon-link"><svg class="icon icon-github">
+                                        <use xlink:href="#icon-github"></use>
+                                    </svg></a>
+                            </div>
+                            <div class="icon-footer">
+                                <a href="" class="icon-link"><svg class="icon icon-twitter">
+                                        <use xlink:href="#icon-twitter"></use>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

@@ -136,6 +136,21 @@ svg {
     z-index: -1;
 }
 
+.about-img{
+    margin: 20px 0px;
+}
+
+.about-text{
+    font-family: 'Merriweather', serif;
+    font-size: calc(8px + (18 - 8) * ((100vw - 300px) / (1600 - 300)));
+}
+
+@media (min-width:1000px) {
+    .about-text{
+        margin: 10% 0px 0px 0px;
+    }
+}
+
 .info{
     /* position: absolute; */
     left: 5%;
@@ -216,6 +231,9 @@ svg {
     color: whitesmoke;
 }
 
+.footer-nav{
+    padding: 0;
+}
 /* .footer-link {
     color: white;
 } */
