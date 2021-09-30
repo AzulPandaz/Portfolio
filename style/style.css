@@ -227,6 +227,7 @@ svg {
 }
 
 .footer-header{
+    margin: 10px 0px;
     font-family: 'Coda', cursive;
     color: whitesmoke;
 }
