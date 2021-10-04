@@ -13,6 +13,10 @@ body{
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, #213029 10%);
 }
 
+.header .btn{
+    padding: 4px 8px;
+}
+
 .header-nav{
     margin-bottom: 25px;
 }
@@ -94,7 +98,7 @@ body{
      width: calc(200px + (350 - 200) * ((100vw - 300px) / (1600 - 300)));;
     height: calc(300px + (500 - 300) * ((100vw - 300px) / (1600 - 300)));;;
     background-color: #EBEBEB;
-    margin: 10px;
+    margin: 20px 0px;
     z-index: 1;
     border-left: 3px solid #CD7F32;
     border-bottom: 3px solid #CD7F32;
