@@ -80,6 +80,11 @@ body{
     font-size: calc(13px + (56 - 13) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.section-main-three .header-main{
+    font-family: 'Teko', sans-serif;
+    font-size: calc(34px + (50 - 34) * ((100vw - 300px) / (1600 - 300)));
+}
+
 .bio{
     color: black;
     z-index: 2;
@@ -129,6 +134,7 @@ body{
 
 svg {
     fill: #CD7F32;
+    fill: #BD550F;
 }
 
 .riot-card-img{
@@ -136,7 +142,7 @@ svg {
     width: 78%;
     position: absolute;
     top: 15%;
-    left: 11%;
+    left: 11.5%;
     z-index: -1;
 }
 
