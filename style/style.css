@@ -4,8 +4,12 @@ body{
 
 /* header */
 
-.header .headshot{
+.logo{
     margin: 20px 0px;
+    font-family: 'Coda', cursive;
+    color: #CD7F32;
+    font-size: calc(38px + (46 - 38) * ((100vw - 300px) / (1600 - 300)));;
+    font-weight: 800;
 }
 
 .header-bar{
@@ -25,7 +29,7 @@ body{
     border: none;
 }
 .header .nav-link{
-    margin-top: 25px;
+    margin-top: 50px;
     color: white;
     background: #213029;
     font-family: 'Teko', sans-serif;
@@ -133,7 +137,7 @@ body{
 }
 
 svg {
-    fill: #CD7F32;
+    /* fill: #CD7F32; */
     fill: #BD550F;
 }
 
@@ -142,7 +146,7 @@ svg {
     width: 78%;
     position: absolute;
     top: 15%;
-    left: 11.5%;
+    left: 11%;
     z-index: -1;
 }
 
@@ -243,6 +247,7 @@ svg {
 }
 
 .footer-nav{
+    margin: 10px 0px;
     padding: 0;
 }
 /* .footer-link {
