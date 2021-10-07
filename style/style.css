@@ -28,10 +28,12 @@
 .header-nav{
     margin-bottom: 25px;
 }
+
 .header .nav-link {
     background: none;
     border: none;
 }
+
 .header .nav-link{
     margin-top: 50px;
     color: white;
@@ -47,18 +49,20 @@
     font-weight: bolder;
 }
 
-.main p {
-    color: black;
-}
 
 /* end of header */
+
+/* Main */
 .video-div{
     position: relative;
     height: calc(160px + (855 - 160) * ((100vw - 300px) / (1600 - 300)));;
     /* margin-bottom: 15px; */
 }
 
-/* Main */
+.main p {
+    color: black;
+}
+
 .video-bg-main{
     width: 100%;
     height: auto;
@@ -88,10 +92,6 @@
     font-size: calc(13px + (56 - 13) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.section-main-three .header-main{
-    font-family: 'Teko', sans-serif;
-    font-size: calc(34px + (50 - 34) * ((100vw - 300px) / (1600 - 300)));
-}
 
 .bio{
     color: black;
@@ -108,7 +108,7 @@
 
 .riot-card{
     position: relative;
-     width: calc(200px + (350 - 200) * ((100vw - 300px) / (1600 - 300)));;
+    width: calc(200px + (350 - 200) * ((100vw - 300px) / (1600 - 300)));;
     height: calc(300px + (500 - 300) * ((100vw - 300px) / (1600 - 300)));;;
     background-color: #EBEBEB;
     margin: 20px 0px;
@@ -160,7 +160,7 @@ svg {
 
 .about-text{
     font-family: 'Merriweather', serif;
-    font-size: calc(8px + (18 - 8) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 
 @media (min-width:1000px) {
@@ -205,6 +205,11 @@ svg {
 
 .section-main-three{
     background-color: #EBEBEB;
+}
+
+.section-main-three .header-main{
+    font-family: 'Teko', sans-serif;
+    font-size: calc(34px + (50 - 34) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .project{
