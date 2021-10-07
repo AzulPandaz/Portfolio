@@ -1,5 +1,9 @@
-body{
-    scroll-behavior: smooth;
+:root{
+    --header-background:#213029;
+    --accent-color: #CD7F32;
+    --main-background-two: #3B5447;
+    --svg-color: #BD550F;
+    --main-background-three: #EBEBEB;
 }
 
 /* header */
@@ -7,13 +11,13 @@ body{
 .logo{
     margin: 20px 0px;
     font-family: 'Coda', cursive;
-    color: #CD7F32;
+    color: var(--accent-color);
     font-size: calc(38px + (46 - 38) * ((100vw - 300px) / (1600 - 300)));;
     font-weight: 800;
 }
 
 .header-bar{
-    background: #213029;
+    background: var(--header-background);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, #213029 10%);
 }
 
@@ -31,7 +35,7 @@ body{
 .header .nav-link{
     margin-top: 50px;
     color: white;
-    background: #213029;
+    background: var(--header-background);
     font-family: 'Teko', sans-serif;
     font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));;
 }
@@ -109,8 +113,8 @@ body{
     background-color: #EBEBEB;
     margin: 20px 0px;
     z-index: 1;
-    border-left: 3px solid #CD7F32;
-    border-bottom: 3px solid #CD7F32;
+    border-left: 3px solid var(--accent-color);
+    border-bottom: 3px solid var(--accent-color);
     box-shadow:0px 8px 2px -2px black;
     
 }
@@ -138,7 +142,7 @@ body{
 
 svg {
     /* fill: #CD7F32; */
-    fill: #BD550F;
+    fill: var(--svg-color);
 }
 
 .riot-card-img{
@@ -260,7 +264,7 @@ svg {
 }
 
 .section-footer-two{
-    background-color: #213029;
+    background-color: var(--header-background);
 }
 
 /* Icon Stuff */
