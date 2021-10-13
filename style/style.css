@@ -216,8 +216,12 @@ svg {
     margin: 15px 0px;
 }
 
+.img-shadow{
+    box-shadow: 3px 3px 5px 6px black;
+}
+
 .project-button{
-    margin: 10px 0px;
+    margin-top: 30px;
 }
 
 .project-button{
